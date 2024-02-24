@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+
+.container{
+    background-color: #7d3b71;
+    color: white;
+    display: flex;
+    padding: 10rem;
+    justify-content: center;
+}
+.texto{
+    width: 30%;
+}
+.texto h2{
+    margin: 6rem 1rem;
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+
+.slider{
+    display: flex;
+    overflow: hidden;
+    width:30.8rem;
+    height: 19rem;
+}
+.testimonios{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    /* transform: translateX(-75%); */
+    transition: all 1s ease-in-out;
+}
+.card-testimonios{
+    background-color: #be9db8;
+    padding: 2rem;
+    margin: 1rem;
+    width: 25rem;
+    height: 13rem;
+    /* box-shadow: 0rem 0.9rem 2rem rgba(0, 0, 0, 0.24), 0rem -0.3rem 0.4rem rgba(0, 0, 0, 0.24) ; */
+    box-shadow: -1px 3px 29px -16px rgba(0,0,0,0.75);
+    border-radius: 1rem;
+    color: #141113;
+    
+}
+.card-testimonios p {
+    font-family: "Open Sans", sans-serif;
+}
+.card-testimonios h3{
+    margin: 1rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.puntos{
+    display: flex;
+    justify-content: center;
+}
+.puntos p{
+    margin: 0 0.5rem;
+    font-size: 3.3rem;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+.punto-actual{
+    color: #8a4f7f;
+}
+
+#hidden{
+    display: none;
+}
