@@ -1,0 +1,107 @@
+*{
+    margin:  0;
+    font-family: "Open Sans", sans-serif;
+    transition: all 0.5s ease;
+}
+/* Contendor Principal */
+.container-style-mod2{
+   
+    margin-top: 4rem;
+}
+/* Seccion General */
+.block-img{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    box-shadow: -0.21rem 0.21rem  1rem rgba(0, 0, 0, 0.179); 
+    
+}
+/* Seccion del texto */
+.text-block{
+    text-align: justify;
+    width: 40%;
+    padding: 6rem;
+}
+
+.text-block i.bi-flower1{
+    color: #b7cd9a;
+    font-size: 3rem;
+}
+.text-block p{
+    font-size: 1.2rem;
+    margin: 3rem 0;
+    color: #11150ba2;
+}
+.text-block a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color:#010101 ;
+    background-color: #b7cd9a;
+    border: #b7cd9a solid ;
+    padding: 1rem 3rem;
+    
+}
+.text-block a:hover{
+    background-color: #a7ce73;
+    cursor: pointer;
+    padding: 1.2rem 4rem;
+}
+/* Seccion de la imagen */
+.img-block{
+    width: 50%;
+    background: url("../img/img1.jpg") no-repeat center;
+}
+
+/* Seccion Responsiva */
+
+@media screen and (max-width:1436px) {
+    .text-block{
+        width: 50%;
+        padding: 4rem;
+    }
+}
+
+@media screen and (max-width:1036px) {
+    .block-img{
+        width: 90%;  
+    }
+}
+@media screen and (max-width:770px) {
+    .block-img{
+       flex-wrap: wrap;
+    }
+    .text-block{
+        text-align: center;
+        width: 100%;
+        padding: 4rem;
+    }
+    .img-block{
+        width: 100%;
+        height: 20rem;
+        /* Utiliza esta Opción para mover el background a tu gusto, con respecto a la foto que estás usando */
+        /* Use this opcion to move the backgroud, with regarding the photo you are using */
+        background-position: -14rem -4rem ;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .img-block{
+        width: 100%;
+        height: 20rem;
+        background-position: -24rem -4rem ;
+    }
+    .text-block{
+        text-align: center;
+        width: 100%;
+        padding: 2rem;
+    }
+    .text-block a{
+        font-size: 1rem;
+        padding: 1rem 1rem;
+    }
+
+    .text-block p{
+        font-size: 1.1rem;
+    }
+}
