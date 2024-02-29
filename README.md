@@ -3,4 +3,6 @@
 <p>Cada semana trataré de actualizar con nuevos modulos</p> 
 <p>Modulo 1: Carrusel de testimoniales</p> 
 <p>Modulo 2: Sección de información de contacto</p> 
+<p>Modulo 3: Carcasa de Login, sin JS</p> 
+
 
