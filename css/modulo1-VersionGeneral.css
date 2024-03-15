@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    transition: all 0.5s ease-in-out;
+
 }
 
 .container-carrusel{
@@ -42,7 +44,6 @@
     margin: 1rem;
     width: 25rem;
     height: 13rem;
-    /* box-shadow: 0rem 0.9rem 2rem rgba(0, 0, 0, 0.24), 0rem -0.3rem 0.4rem rgba(0, 0, 0, 0.24) ; */
     box-shadow: -1px 3px 29px -16px rgba(0,0,0,0.75);
     border-radius: 1rem;
     color: #141113;
@@ -72,4 +73,84 @@
 
 #hidden{
     display: none;
+}
+
+@media screen and (max-width:1036px) {
+   .texto{
+    width: 100%;
+   }
+
+   .container-carrusel{
+    padding: 6rem;
+   }
+
+   .slider{
+    width: 25rem;
+
+   }
+
+   .card-testimonios{
+    width: 20rem;
+    
+   }
+
+   .card-testimonios p{
+    font-size: 0.91rem;
+   }
+}
+@media screen and (max-width:770px) {
+    
+   .container-carrusel{
+    display: grid;
+    justify-items: center;
+   }
+
+   .texto{
+    text-align: center;
+   }
+}
+
+@media screen and (max-width:420px) {
+    
+    .container-carrusel{
+        padding: 1rem;
+    }
+    
+    .slider{
+        width: 21rem;
+        height: 25rem;
+    }
+    
+    .card-testimonios{
+        width: 16rem;
+        height: 20rem;
+    }
+    
+    .card-testimonios p{
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .card-testimonios h3{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:325px) {
+    .slider{
+        width: 18rem;
+        height: 27.5rem;
+    }
+    
+    .card-testimonios{
+        width: 13rem;
+        height: 23.5rem;
+    }
+    
+    .card-testimonios p{
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+    }
 }
