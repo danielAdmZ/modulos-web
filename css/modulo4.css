@@ -1,0 +1,58 @@
+*{
+    margin:  0;
+    font-family: "Open Sans", sans-serif;
+    transition: all 0.5s ease;
+}
+
+/* ?Container Principal digamos que es la caja */
+.container-seguroM{
+   
+}
+/*? Container Principal, después de este va todo el conteido */
+.container-gen-seguroM{
+    background:  linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.3)), url("/img/doctor-taking-a-hand.jpg")     no-repeat center;
+    background-size: cover;
+    padding: 4rem;
+}
+
+/* !Titulo Principal */
+.title-seguroM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-seguroM img{
+    height: 10rem;
+    margin-right: 4rem;
+}
+.title-seguroM h2 {
+    font-size: 3.5rem;
+    color: #031653;
+}
+
+/* !Texto y Boton Secundario */
+
+.text-seguroM{
+    display: grid;
+    justify-items: center;
+}
+
+.text-seguroM p{
+    color: #031653;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.text-seguroM a{
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #031653;
+    background-color: white;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+}
+.text-seguroM img{
+    margin: 0 1rem;
+    height: 2rem;
+}
