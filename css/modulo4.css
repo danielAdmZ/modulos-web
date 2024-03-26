@@ -10,7 +10,7 @@
 }
 /*? Container Principal, después de este va todo el conteido */
 .container-gen-seguroM{
-    background:  linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.3)), url("/img/doctor-taking-a-hand.jpg")     no-repeat center;
+    background:  linear-gradient(rgba(255, 255, 255, 0.2),rgba(98, 123, 131, 0.7)), url("/img/doctor-taking-a-hand.jpg")     no-repeat center;
     background-size: cover;
     padding: 4rem;
 }
@@ -39,20 +39,88 @@
 }
 
 .text-seguroM p{
-    color: #031653;
+    color: #000000;
     font-size: 1.2rem;
+    font-weight: 600;
+}
+.text-seguroM p > span{
     font-weight: 700;
+    color: #041a6c;
+}
+.button-seguroM{
+    margin-top:2rem;
+    background-color: #031653;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
 }
 .text-seguroM a{
-    margin-top: 2rem;
     text-decoration: none;
-    color: #031653;
-    background-color: white;
-    padding: 1rem;
+    color: white;
     font-size: 1.2rem;
-    border-radius: 2rem;
 }
 .text-seguroM img{
     margin: 0 1rem;
     height: 2rem;
 }
+
+/* TODO: SECCIÓN RESPONSIVA */
+
+@media screen and (max-width:1300px) {
+
+    .title-seguroM h2 {
+        font-size: 2.5rem;
+    }
+}
+/* !SigSección */
+@media screen and (max-width:1040px) {
+
+    .title-seguroM h2 {
+        font-size: 2.2rem;
+    }
+    .text-seguroM p{
+        margin-top: 1rem;
+        font-size: 1.4rem;
+        
+    }
+    .title-seguroM img{
+        height: 5rem;
+        
+    }
+}
+/* !SigSección */
+@media screen and (max-width:870px) {
+
+    .title-seguroM h2 {
+        font-size: 2rem;
+    }
+
+    .title-seguroM img{
+        height: 4.5rem;
+        
+    }
+    .text-seguroM p{
+        margin-top: 1rem;
+        text-align: center;
+    }
+}
+/* !SigSección */
+@media screen and (max-width:560px) {
+
+    .title-seguroM h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .title-seguroM img{
+        display: none;
+    }
+    .text-seguroM p{
+        margin-top: 1rem;
+        text-align: center;
+    }
+}
+
+
+
