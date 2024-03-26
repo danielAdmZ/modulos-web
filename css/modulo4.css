@@ -4,10 +4,6 @@
     transition: all 0.5s ease;
 }
 
-/* ?Container Principal digamos que es la caja */
-.container-seguroM{
-   
-}
 /*? Container Principal, después de este va todo el conteido */
 .container-gen-seguroM{
     background:  linear-gradient(rgba(255, 255, 255, 0.2),rgba(98, 123, 131, 0.7)), url("/img/doctor-taking-a-hand.jpg")     no-repeat center;
