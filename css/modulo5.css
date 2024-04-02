@@ -1,0 +1,89 @@
+*{
+    margin:  0;
+    font-family: "Open Sans", sans-serif;
+    transition: all 0.5s ease; 
+}
+/* !Seccion del contenedor */
+.container-contact{
+    display: flex;
+    /* border: 0.5rem solid red; */
+    padding: 1rem;
+    justify-content: center;
+    height: 40rem;
+}
+
+/* ?Seccion titulo prinicpal  */
+.info-contact{
+    /* border:  0.1rem solid ; */
+    display: grid;
+    align-content: center;
+    margin-right: 0rem;
+    width: 35%;
+}
+
+.info-contact h2{
+    
+    font-size: 4rem;
+    color: #041c5c;
+    text-align: right;
+}
+
+.info-contact ul li{
+    display: grid;
+    text-align: right;
+    
+
+}
+
+.info-contact ul li a{
+    text-decoration: none;
+    color: #3c4b45;
+    margin: 1rem;
+    font-weight: 600;
+}
+
+/* ?Seccion Mapa */
+
+.mapa-contact{
+    position: absolute;
+    margin-top: 3rem;
+}
+.mapa-contact iframe{
+    box-shadow: 2rem 2rem #041b5c;
+    border-radius: 0.5rem;
+}
+
+/* ? Seccion Formulario Contacto */
+
+.form-contact{
+    background-color: #041b5cda;
+    width: 45%;
+    display: grid;
+    justify-items: end;
+    padding: 5rem;
+    margin-left: 10rem;
+}
+.form-contact form{
+    display: flex;
+    flex-direction: column;
+}
+.form-contact form input, .form-contact textarea{
+    margin-top: 2rem;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    border-bottom: 0.1rem solid #68779d;
+    height: 3rem;
+    width: 27rem;
+}
+
+.form-contact textarea{
+    height: 8rem;
+}
+
+.form-contact form input#submit{
+    background-color: white;
+    color: black;
+}
+ 
