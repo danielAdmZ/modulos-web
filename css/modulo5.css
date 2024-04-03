@@ -42,6 +42,10 @@
     font-weight: 600;
 }
 
+.info-contact a i{
+    color: #041b5c;
+}
+
 /* ?Seccion Mapa */
 
 .mapa-contact{
@@ -87,3 +91,140 @@
     color: black;
 }
  
+
+/* ! Sección Responsiva  */
+
+@media screen and (max-width:1600px) {
+    .form-contact form input, .form-contact textarea{
+        width: 22rem;
+    }
+}
+
+@media screen and (max-width:1450px) {
+    .info-contact h2{
+        margin-right: 0.6rem;
+        font-size: 2.5rem;
+        
+    }
+    
+    .form-contact form input, .form-contact textarea{
+        width: 17rem;
+    }
+
+}
+@media screen and (max-width:1270px) {
+    .info-contact h2{
+        margin-right: 0.8rem;
+        font-size: 2.5rem;
+        
+    }
+    
+    .form-contact form input, .form-contact textarea{
+        width: 15rem;
+    }
+
+}
+@media screen and (max-width:1200px) {
+    
+    .container-contact{
+        flex-direction: column;
+        height: auto;
+    }
+    /* * info Contacto */
+    .info-contact{
+        width: 100%;
+        justify-items: center;
+    }
+    .info-contact h2{
+        font-size: 4rem;
+    }
+    .info-contact ul li {
+        display: block;
+        margin: 1rem;
+    }
+    /* * -> Mapa   */
+    .mapa-contact{
+        position: static ;
+        margin: 0 auto;
+        margin-bottom: -2rem;
+        z-index: 1;
+    }
+    .mapa-contact iframe{
+        width: 58.6rem;
+        height: 15rem;
+        box-shadow: 0rem 2rem #041c5c;
+        border-radius: 1rem;
+    }
+    /* * -> Contacto   */
+    .form-contact{
+        z-index: 0;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-top: 5rem;
+    }
+    .form-contact form{
+        margin: 0 auto;
+    }
+    .form-contact form input, .form-contact textarea{
+        margin: 1rem 0;
+        font-size: 1.5rem;
+        width: 30rem;
+    }
+}
+
+@media screen and (max-width:970px) {
+    .mapa-contact iframe{
+        width: 38.6rem;
+        
+    }
+}
+@media screen and (max-width:650px) {
+    .mapa-contact iframe{
+        width: 28.6rem;
+    }
+
+    .form-contact form input, .form-contact textarea{
+        margin: 1rem 0;
+        font-size: 1.3rem;
+
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .mapa-contact iframe{
+        width: 18.6rem;
+    }
+
+    .info-contact h2{
+        font-size: 3rem;
+    }
+    .info-contact ul li{
+        text-align: center;
+    }
+    .info-contact ul {
+        padding: 0;
+    }
+    .form-contact form input, .form-contact textarea{
+        margin: 1rem 0;
+        font-size: 1.3rem;
+    
+        width: 20rem;
+    }
+}
+@media screen and (max-width:380px) {
+    .mapa-contact iframe{
+        width: 17.6rem;
+    }
+
+    .info-contact h2{
+        font-size: 2.5rem;
+    }
+    .form-contact form input, .form-contact textarea{
+        margin: 1rem 0;
+        font-size: 1.1rem;
+        width: 15rem;
+    }
+}
+
